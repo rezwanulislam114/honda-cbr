@@ -1,0 +1,58 @@
+/* google fonts link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common css  */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.main-color {
+    color: #E76F51;
+}
+.link-btn {
+    background: #E76F51;
+    color: #fff;
+    padding: 10px 46px;
+    border-radius: 5px;
+    border: 2px solid #E76F51;
+    transition: background .5s, color .5s;
+}
+.link-btn:hover {
+    background: #fff;
+    color: #E76F51;
+}
+.margin-top {
+    margin-top: 8%;
+}
+.margin-bottom {
+    margin-bottom: 4%;
+}
+
+/* header section  */
+.bg-header {
+    background: #264653;
+}
+
+/* fetured section  */
+.underline {
+    position: relative;
+}
+.underline::after {
+    content: '';
+    background: #E76F51;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+img.grayscale {
+    filter: grayscale(1);
+}
+
+/* clients section  */
+.client {
+    width: 325px;
+}
+
+/* frequently asked qs section  */
