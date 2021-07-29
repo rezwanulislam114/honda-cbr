@@ -31,7 +31,9 @@ body {
 }
 
 /* header section  */
-
+.nav-item .link-btn {
+    text-decoration: none;
+}
 
 /* fetured section  */
 .underline {
@@ -64,3 +66,9 @@ img.grayscale {
 }
 
 /* prebook a bike section  */
+
+/* footer section  */
+.app {
+    width: 140px;
+    height: 45px;
+}
