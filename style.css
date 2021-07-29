@@ -53,9 +53,15 @@ img.grayscale {
     filter: grayscale(1);
 }
 
+/* latest news section  */
+.news {
+    max-height: 580px;
+    max-width: 380px;
+}
+
 /* clients section  */
 .client {
-    width: 325px;
+   max-width: 325px;
 }
 
 /* frequently asked qs section  */
