@@ -5,6 +5,9 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+.dark-bg-color {
+    background: #264653;
+}
 .main-color {
     color: #E76F51;
 }
@@ -28,9 +31,7 @@ body {
 }
 
 /* header section  */
-.bg-header {
-    background: #264653;
-}
+
 
 /* fetured section  */
 .underline {
@@ -56,3 +57,8 @@ img.grayscale {
 }
 
 /* frequently asked qs section  */
+
+/* exchange section  */
+.exchange {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.7), rgba(255,255,255,.1)), url(./images/exchange-bg.jpg);
+}
